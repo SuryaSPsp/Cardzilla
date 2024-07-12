@@ -22,7 +22,7 @@ body {
     padding: 10px 40px;
 }
 
-#navbar .nav-1 {
+.nav-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,18 +32,18 @@ body {
     margin-bottom: 20px;
 }
 
-#navbar .nav-1 a {
+.nav-1 a {
     color: #FFFFFFCC;
     margin-left: 15px;
 }
 
-#navbar .nav-1-left,#navbar  .nav-1-center,#navbar  .nav-1-right {
+.nav-1-left, .nav-1-center, .nav-1-right {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-#navbar .nav-2 {
+.nav-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,35 +53,35 @@ body {
 
 }
 
-#navbar .nav-2 ul li i{
+.nav-2 ul li i{
     display: none;
 }
 
-#navbar .nav-2 ul {
+.nav-2 ul {
     display: flex;
     gap: 30px;
     padding: 10px 20px;
 }
 
-#navbar .nav-2 .omenu{
+.nav-2 .omenu{
     display: none;
 }
 
-#navbar .nav-2 a {
+.nav-2 a {
     color: #FFFFFFCC;
     font-size: 15px;
 }
 
-#navbar .nav-2 ul li a:hover{
+.nav-2 ul li a:hover{
     text-decoration:underline;
 }
 
-#navbar .nav-icon a .nav-ic{
+.nav-icon a .nav-ic{
     margin-left: 15px;
     padding: 10px;
 }
 
-#navbar .nav-icon a .nav-search{
+.nav-icon a .nav-search{
     background: #333D4C;
     border-radius: 100%;
 }
@@ -156,30 +156,30 @@ body {
     background: #181D25;
 }
 
-#categories .cate {
+.cate {
     display: flex;
     justify-content: center;
 }
 
-#categories .cate-1 {
+.cate-1 {
     flex: 1 1 calc(30% - 20px);
     text-align: center;
 }
 
-#categories .cate-1 .cate-img{
+.cate-1 .cate-img{
     width: 60%;
     background: #222934;
     border-radius: 100%;
     margin-bottom: 10px;
 }
 
-#categories .cate-1 p {
+.cate-1 p {
     margin-top: 10px;
     font-size: 18px;
     color: #fff;
 }
 
-#categories .cate-1 .c-img{
+.cate-1 .c-img{
     width: 60%;
 }
 
@@ -189,35 +189,35 @@ body {
     background: #181D25;
 }
 
-#products .products {
+.products {
     max-width: 100%;
     margin: 0 auto;
 }
 
-#products .product-top {
+.product-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
 
-#products .product-top h2 {
+.product-top h2 {
     font-size: 24px;
     color: #fff;
 }
 
-#products .product-top p {
+.product-top p {
     display: flex;
     align-items: center;
     color: #fff;
     cursor: pointer;
 }
 
-#products .product-top p img {
+.product-top p img {
     margin-left: 10px;
 }
 
-#products .product-line{
+.product-line{
     width: 100%;
     height: 1px;
     border: 1px solid #333D4C;
@@ -225,20 +225,20 @@ body {
     margin-bottom: 30px;
 }
 
-#products .product-bottom {
+.product-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5px;
 }
 
-#products .product-item {
+.product-item {
     padding: 20px;
     flex: 1 1 calc(25% - 20px);
     text-align: left;
     position: relative;
 }
-#products .product-item .discount{
+.product-item .discount{
     position: absolute;
     z-index: 1;
     top: 0;
@@ -247,19 +247,19 @@ body {
     color: #fff;
     border-radius: 5px;
     padding: 4px;
-}
 
-#products .product-item img {
+}
+.product-item img {
     width: 100%;
 }
 
-#products .product-item p {
+.product-item p {
     margin: 10px 0;
     font-size: 16px;
     color: #FFFFFF;
 }
 
-#products .product-item span {
+.product-item span {
     font-size: 18px;
     font-weight: bold;
     color: #fff;
@@ -267,24 +267,24 @@ body {
     margin: 10px 0;
 }
 
-#products .p-s {
+.p-s {
     display: flex;
 }
 
-#products .p-s .cancelled {
+.p-s .cancelled {
     text-decoration: line-through;
     color: #999;
     margin-left: 10px;
 }
 
-#products .pro-btn {
+.pro-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
 }
 
-#products .pro-btn button {
+.pro-btn button {
     padding: 10px 15px;
     background-color: #fff;
     color: #000;
@@ -296,11 +296,11 @@ body {
     flex: 1;
 }
 
-#products .pro-btn a {
+.pro-btn a {
     margin-left: 10px;
 }
 
-#products .pro-btn img {
+.pro-btn img {
     width: 24px;
     height: 24px;
     background: #333D4C;
@@ -308,13 +308,13 @@ body {
     padding:8px;
     border-radius: 100%;
 }
-#products .product-bottom .arrow{
+.product-bottom .arrow{
     border: 1px solid #333D4C;
     padding: 10px;
     border-radius: 100%;   
 }
 
-#products .dot {
+.dot {
     display: flex;
     align-items: center;
     gap: 7px;
@@ -322,7 +322,7 @@ body {
 }
 
 
-#products .dot .black{
+.dot .black{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -331,7 +331,7 @@ body {
     border: 2px solid #6C727F;
 }
 
-#products .dot .l-blue{
+.dot .l-blue{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -339,7 +339,7 @@ body {
     border-radius: 100px;
 }
 
-#products .dot .blue{
+.dot .blue{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -347,7 +347,7 @@ body {
     border-radius: 100px;
 }
 
-#products .dot .s-blue{
+.dot .s-blue{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -356,7 +356,7 @@ body {
     border: 2px solid #6C727F;
 }
 
-#products .dot .grey{
+.dot .grey{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -364,7 +364,7 @@ body {
     border-radius: 100px;
 }
 
-#products .dot .sandel{
+.dot .sandel{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -373,7 +373,7 @@ body {
     border: 2px solid #6C727F;
 }
 
-#products .dot .orange{
+.dot .orange{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -381,7 +381,7 @@ body {
     border-radius: 100px;
 }
 
-#products .dot .white{
+.dot .white{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -389,7 +389,7 @@ body {
     border-radius: 100px;
 }
 
-#products .dot .green{
+.dot .green{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -398,7 +398,7 @@ body {
     border: 2px solid #6C727F;
 }
 
-#products .dot .d-blue{
+.dot .d-blue{
     width: 5px;
     height: 5px;
     padding: 5px;
@@ -412,25 +412,25 @@ body {
     background: #181D25;
 }
 
-#design .design {
+.design {
     width: 100%;
     margin: 0 auto;
     text-align: left;
 }
 
-#design .design h2 {
+.design h2 {
     font-size: 2rem;
     color: #fff;
     margin-bottom: 30px;
 }
 
-#design .d-room {
+.d-room {
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
 }
 
-#design .d-room p {
+.d-room p {
     font-size: 16px;
     color: #E0E5EB;
     border: 1px solid #333D4C;
@@ -440,43 +440,43 @@ body {
     transition: color 0.3s ease;
 }
 
-#design .d-room p:hover {
+.d-room p:hover {
     color: #fff;
     border: 1px solid #fff;
 
 }
 
-#design .d-img {
+.d-img {
     display: flex;
     gap: 20px;
     width: 100%;
 }
 
-#design .col-1 {
+.col-1 {
     flex: 0 0 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-#design .col-2 {
+.col-2 {
     flex: 0 0 60%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-#design .col-1 img{
+.col-1 img{
     width: 100%;
     border-radius: 10px;
 }
 
-#design .col-2 .bed{
+.col-2 .bed{
     width: 100%;
     border-radius: 10px;
     height: 57%;
 } 
-#design .col-2 .decor{
+.col-2 .decor{
     width: 100%;
     border-radius: 10px;
 }
@@ -487,7 +487,7 @@ body {
     background: #181D25;
 }
 
-#benefit .benefit {
+.benefit {
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -495,23 +495,23 @@ body {
     padding: 20px;
 }
 
-#benefit .b-1 {
+.b-1 {
     padding: 20px;
     margin: 10px;
 }
 
-#benefit .b-1 img {
+.b-1 img {
     width: 70px;
     height: 70px;
 }
 
-#benefit .b-1 h4 {
+.b-1 h4 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #fff;
 }
 
-#benefit .b-1 p {
+.b-1 p {
     font-size: 1.2rem;
     color: #CAD0D9;
 }
@@ -522,7 +522,7 @@ body {
     background: #181D25;
 }
 
-#banner .banner {
+.banner {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -531,7 +531,7 @@ body {
     padding: 20px;
 }
 
-#banner .banner-left, #banner .banner-right {
+.banner-left, .banner-right {
     flex: 1;
     align-items: center;
     text-align: center;
@@ -539,26 +539,26 @@ body {
     padding: 100px;
     margin: 0;
 }
-#banner .banner-left{
+.banner-left{
     background: #333D4C;
     align-items: center;
 }
 
-#banner .banner-right{
+.banner-right{
     background: #222934;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-#banner .banner-left .b-l-img {
+.banner-left .b-l-img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
     align-items: center;
 }
 
-#banner .banner-left button {
+.banner-left button {
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #fff;
@@ -570,38 +570,38 @@ body {
     border-radius: 100px;
 }
 
-#banner .banner-left button img {
+.banner-left button img {
     margin-right: 2px;
 }
 
-#banner .banner-right p {
+.banner-right p {
     font-size: 1.2rem;
     color: #CAD0D9;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
-#banner .banner-right h3 {
+.banner-right h3 {
     font-size: 2rem;
     color: #fff;
     margin-bottom: 50px;
 }
 
-#banner .banner-right img {
+.banner-right img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 40px;
 }
 
-#banner .banner-right span {
+.banner-right span {
     font-size: 2rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 40px;
 }
 
-#banner .banner-right button {
+.banner-right button {
     padding: 12px 24px;
     font-size: 1.2rem;
     color: #fff;
@@ -618,14 +618,14 @@ body {
     background: #181D25;
 }
 
-#blog .blog {
+.blog {
     width: 100%;
     margin: 0 auto;
     height: auto;
 
 }
 
-#blog .blog-top {
+.blog-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -633,12 +633,12 @@ body {
     margin-bottom: 30px;
 }
 
-#blog .blog-top h2 {
+.blog-top h2 {
     font-size: 24px;
     color: #fff;
 }
 
-#blog .blog-top p {
+.blog-top p {
     font-size: 16px;
     color: #ffffff;
     cursor: pointer;
@@ -647,13 +647,13 @@ body {
     gap: 10px;
 }
 
-#blog .blog-bottom {
+.blog-bottom {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-#blog .b-b-1 {
+.b-b-1 {
     background-color:transparent;
     border-radius: 10px;
     display: flex;
@@ -666,46 +666,46 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;   
 }
 
-#blog .b-b-1:hover {
+.b-b-1:hover {
     transform: scale(1.10); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-#blog .b-b-img{
+.b-b-img{
     width: 100%;
     height: 60%; 
     overflow: hidden;
 }
-#blog .bl-img{
+.bl-img{
     height: 100%;
 }
-#blog .b-b-img img {
+.b-b-img img {
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
 }
 
-#blog .b-b-content {
+.b-b-content {
     padding: 20px;
     padding-left: 0;
     margin: 0;
 }
 
-#blog .b-b-content p {
+.b-b-content p {
     font-size: 1rem;
     color:#CAD0D9;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
-#blog .b-b-content h5 {
+.b-b-content h5 {
     font-size: 1.5rem;
     color: #fff;
     margin-bottom: 10px;
     margin-top: 0;
 }
 
-#blog .b-b-content span {
+.b-b-content span {
     font-size: 14px;
     color:#9CA3AF;
 }
@@ -717,7 +717,7 @@ body {
     padding: 50px 100px;
 }
 
-#footer .ft {
+.ft {
 width: 100%;
 margin: 0 auto;
 display: flex;
@@ -727,35 +727,35 @@ gap: 30px;
 align-items: center;
 }
 
-#footer .ft-top {
+.ft-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
-#footer .ft-1, #footer .ft-3-2, #footer .ft-3-1 {
+.ft-1, .ft-3-2, .ft-3-1 {
     display: flex;
     flex-direction: column;
     padding-top:20px ;
 }
 
-#footer .ft-3-1{
+.ft-3-1{
     display: none;
 }
 
-#footer .ft-1 a, #footer .ft-3-2 a, #footer .ft-3-1 a {
+.ft-1 a, .ft-3-2 a, .ft-3-1 a {
     color: #fff;
     text-decoration: none;
     line-height: 30px;
     font-size: 1rem;
 }
 
-#footer .ft-1 a:hover, #footer .ft-3-2 a:hover, #footer .ft-3-1 a:hover {
+.ft-1 a:hover, .ft-3-2 a:hover, .ft-3-1 a:hover {
     text-decoration: underline;
 }
 
-#footer .ft-2 {
+.ft-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -764,21 +764,21 @@ align-items: center;
     max-width: 500px;
 }
 
-#footer .ft-2-1 {
+.ft-2-1 {
     margin-bottom: 20px;
 }
 
-#footer .ft-2-1 h2 {
+.ft-2-1 h2 {
     font-size: 1.8rem;
 }
 
-#footer .ft-2-1 p {
+.ft-2-1 p {
     font-size: 1rem;
     color: #CAD0D9;
 
 }
 
-#footer .ft-2-2 {
+.ft-2-2 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -788,7 +788,7 @@ align-items: center;
     padding: 5px 20px;
 }
 
-#footer .ft-2-2 input {
+.ft-2-2 input {
     width: 100%;
     padding: 10px;
     border: none;
@@ -798,30 +798,31 @@ align-items: center;
     background: transparent;
 }
 
-#footer .ft-2-2 img {
+.ft-2-2 img {
     width: 30px;
     padding: 10px;
     cursor: pointer;
 }
 
-#footer .ft-2-3 {
+.ft-2-3 {
     display: flex;
     gap: 30px;
 }
 
-#footer .ft-2-3 img {
+.ft-2-3 img {
     width:100%;
     height: 20px;
     cursor: pointer;
 }
 
-#footer .ft-3 {
+.ft-3 {
     display: flex;
-    align-items: center;   
+    align-items: center;
+    
     flex-direction: column;
 }
 
-#footer .ft-btm {
+.ft-btm {
     padding-top: 20px;
     width: 100%;
     display: flex;
@@ -830,12 +831,12 @@ align-items: center;
     bottom: 0;
 }
 
-#footer .copyrights{
+.copyrights{
     text-align: center;
     width: 100%;
 } 
 
-#footer .copyrights p {
+.copyrights p {
     font-size: 1rem;
 }
 
@@ -845,20 +846,18 @@ align-items: center;
         padding: 10px 50px 50px 50px;
     }
 
-    /* Navbar */
     #navbar {
         padding: 10px 20px;
     }
 
-    #navbar .nav-2 {
+    .nav-2 {
         padding: 10px 20px;
     }
 
-    #navbar .nav-2 ul {
+    .nav-2 ul {
         padding: 10px 10px;
     }
 
-    /* main */
     #main {
         padding-top: 50px;
     }
@@ -893,160 +892,153 @@ align-items: center;
         font-size: 1.1rem;
     }
 
-    /* Categories */
     #categories {
         padding: 30px 50px;
     }
 
-    #categories .cate-1 .cate-img {
+    .cate-1 .cate-img {
         width: 50%;
     }
 
-    #categories .cate-1 p{
+    .cate-1 p{
         font-size: 1rem;
     }
 
-    /* products */
     #products {
         padding: 30px 50px;
     }
 
-    #products .product-top h2 {
+    .product-top h2 {
         font-size: 20px;
     }
 
-    #products .product-top p {
+    .product-top p {
         font-size: 14px;
     }
     
-    #products .product-top{
+    .product-top{
         margin-bottom: 20px;
     }
 
-    #products .product-bottom {
+    .product-bottom {
         gap: 10px;
     }
 
-    #products .product-item {
+    .product-item {
         padding: 15px;
     }
 
-    #products .product-item p {
+    .product-item p {
         font-size: 16px;
     }
 
-    #products .product-item span {
+    .product-item span {
         font-size: 16px;
     }
 
-    #products .dot .color{
+    .dot .color{
         padding: 4.5px;
     }
 
-    #products .pro-btn button {
+    .pro-btn button {
         padding: 8px 12px;
         font-size: 0.9rem;
     }
 
-    /* design section */
     #design {
         padding: 30px 50px;
     }
 
-    #design .design h2 {
+    .design h2 {
         font-size: 1.8rem;
     }
 
-    #design .d-room p {
+    .d-room p {
         font-size: 15px;
     }
 
-    /* Benefits */
     #benefit {
         padding: 30px 50px; 
     }
-    #benefit .benefit{
+    .benefit{
         margin: 0;
         padding: 0;
     }
 
-    #benefit .b-1 h4 {
+    .b-1 h4 {
         font-size: 1.7rem;
     }
 
-    #benefit .b-1 p {
+    .b-1 p {
         font-size: 1.1rem;
     }
  
-    /* banner section */
-    #banner {
+    #banner{
         padding: 30px 50px;
         margin: 0;
     }
 
-    #banner .banner{
+    .banner{
         padding: 0;
     }
 
-    #banner .banner-left, #banner .banner-right {
+    .banner-left, .banner-right {
         padding: 50px;
     }
 
-    #banner .banner-right p{
+    .banner-right p{
         font-size: 1.1rem;
     }
 
-    #banner .banner-right h3 {
+    .banner-right h3 {
         font-size: 1.8rem;
     }
 
-    #banner .banner-right span{
+    .banner-right span{
         font-size: 1.8rem;   
     }
 
-    #banner .banner-right button{
+    .banner-right button{
         font-size: 1.1rem;
     }
 
-    /* Blog */
     #blog {
         padding: 30px 50px;
     }
 
-    #blog .blog-top h2 {
+    .blog-top h2 {
         font-size: 22px;
     }
 
-    #blog .blog-top {
+    .blog-top {
         margin-bottom: 20px;
     }
 
-    #blog .blog-top p {
+    .blog-top p {
         font-size: 15px;
     }
 
-    #blog .b-b-content p {
+    .b-b-content p {
         font-size: 0.9rem;
     }
 
-    #blog .b-b-content h5 {
+    .b-b-content h5 {
         font-size: 1.3rem;
     }
 
-    /* footer */
     #footer {
         padding: 30px 50px;
     }
 
-    #footer .ft-2-1 h2 {
+    .ft-2-1 h2 {
         font-size: 1.7rem;
     }
 
-    #footer .ft-2-1 p {
+    .ft-2-1 p {
         font-size: 0.9rem;
     }
 
-    #footer .copyrights p {
+    .copyrights p {
         font-size: 0.9rem;
     }
 }
@@ -1057,20 +1049,18 @@ align-items: center;
         padding: 10px 30px 30px 30px;
     }
 
-    /* Navbar */
     #navbar {
         padding: 10px 15px;
     }
 
-    #navbar .nav-2 {
+    .nav-2 {
         padding: 10px 15px;
     }
 
-    #navbar .nav-2 ul {
+    .nav-2 ul {
         padding: 10px 5px;
     }
 
-    /* Main */
     #main {
         padding-top: 40px;
     }
@@ -1092,147 +1082,141 @@ align-items: center;
         font-size: 1rem;
     }
 
-    /* Categories */
     #categories {
         padding: 30px 30px;
     }
 
-    #categories .cate-1 .cate-img {
+    .cate-1 .cate-img {
         width: 45%;
     }
 
-    /* products */
     #products {
         padding: 30px 30px;
     }
 
-    #products .product-top h2 {
+    .product-top h2 {
         font-size: 19px;
     }
 
-    #products .product-top p {
+    .product-top p {
         font-size: 13px;
     }
 
-    #products .product-top{
+    .product-top{
         margin-bottom: 10px;
     }
 
-    #products .product-bottom {
+    .product-bottom {
         gap: 8px;
     }
 
-    #products .product-item {
+    .product-item {
         padding: 12px;
     }
 
-    #products .product-item p {
+    .product-item p {
         font-size: 1rem;
     }
 
-    #products .product-item span {
+    .product-item span {
         font-size: 1rem;
     }
 
-    #products .dot .color{
+    .dot .color{
         padding: 4px;
     }
 
-    #products .pro-btn button {
+    .pro-btn button {
         padding: 6px 10px;
         font-size: 0.85rem;
     }
 
-    /* design section */
     #design {
         padding: 30px 30px;
     }
 
-    #design .design h2 {
+    .design h2 {
         font-size: 1.7rem;
     }
 
-    #design .d-room p {
+    .d-room p {
         font-size: 14px;
     }
     
-    /* Benefit section */
     #benefit {
         padding: 30px 30px;
     }
 
-    #benefit .b-1 h4 {
+    .b-1 h4 {
         font-size: 1.6rem;
     }
 
-    #benefit .b-1 p {
+    .b-1 p {
         font-size: 1rem;
     }
 
-    /* Banner section */
     #banner{
         padding: 30px 30px;
     }
 
-    #banner .banner-left, #banner .banner-right {
+    .banner-left, .banner-right {
         padding: 40px;
     }
 
-    #banner .banner-right p{
+    .banner-right p{
         font-size: 1rem;
     }
 
-    #banner .banner-right h3 {
+    .banner-right h3 {
         font-size: 1.7rem;
     }
 
-    #banner .banner-right span{
+    .banner-right span{
         font-size: 1.6rem;   
     }
 
-    #banner .banner-right button{
+    .banner-right button{
         font-size: 1rem;
     }
 
-    /* Blog section */
     #blog {
         padding: 30px 30px;
     }
 
-    #blog .blog-top h2 {
+    .blog-top h2 {
         font-size: 20px;
     }
 
-    #blog .blog-top {
+    .blog-top {
         margin-bottom: 15px;
     }
 
-    #blog .blog-top p {
+    .blog-top p {
         font-size: 15px;
     }
 
-    #blog .b-b-content p {
+    .b-b-content p {
         font-size: 0.85rem;
     }
 
-    #blog .b-b-content h5 {
+    .b-b-content h5 {
         font-size: 1.2rem;
     }
 
-    /* Footer */
+
     #footer {
         padding: 30px 30px;
     }
 
-    #footer .ft-2-1 h2 {
+    .ft-2-1 h2 {
         font-size: 1.6rem;
     }
 
-    #footer .ft-2-1 p {
+    .ft-2-1 p {
         font-size: 0.85rem;
     }
 
-    #footer .copyrights p {
+    .copyrights p {
         font-size: 0.85rem;
     }
 }
