@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartzilla</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menu = document.querySelector('.omenu');
+            const closeMenu = document.querySelector('.closemenu');
+            const navbar = document.getElementById('om');
+
+            menu.addEventListener('click', function() {
+                navbar.style.display = 'block';
+            });
+
+            closeMenu.addEventListener('click', function() {
+                navbar.style.display = 'none';
+            });
+        });
+    </script>
+</head>
+<body>
+    <section id="header">
+        <section id="navbar">
+            <div class="nav-1">
+                <div class="nav-1-left">
+                    <p>Contact us 24/7 +1 50 537 53 082</p>
+                </div>
+                <div class="nav-1-center">
+                    <p>🔥 The Biggest Sale Ever 50% Off</p>
+                </div>
+                <div class="nav-1-right">
+                    <a href="#">Wishlist</a>
+                    <a href="#">Account</a>
+                </div>
+            </div>
+            <div class="nav-2">
+                <div class="logo">
+                    <a href="#"><img src="assets/icons/Logo.svg"/></a>
+                </div>
+                <ul id="om">
+                    <li class="closemenu"><i class="bi bi-x-lg"></i></li>
+                    <li><a href="#">Bedroom</a></li>
+                    <li><a href="#">Living room</a></li>
+                    <li><a href="#">Kitchen</a></li>
+                    <li><a href="#">Decoration</a></li>
+                    <li><a href="#">Office</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <a href="#"><img class="nav-ic" src="assets/icons/sleep-Icon.svg"/></a>
+                    <a href="#"><img class="nav-ic" src="assets/icons/shopping-Icon.svg"/></a>
+                    <a href="#"><img class="nav-search nav-ic" src="assets/icons/search-Icon.svg"/></a>
+                </div>
+                <div class="omenu">
+                    <i class="bi bi-list"></i>
+                </div>
+            </div>
+        </section>
+        <section id="main">
+            <h1>Everything You Need for<br> a Modern Interior</h1>
+            <div class="main-img">
+                <img class="main-img-1" src="assets/images/product-2.png"/>
+                <img class="main-icon" src="assets/icons/left-arrow-Icon.svg"/>
+                <img class="main-img-2" src="assets/images/spotlight-2.png"/>
+                <img class="main-icon" src="assets/icons/right-arrow-Icon.svg"/>
+                <img class="main-img-3" src="assets/images/Living room.png"/>
+            </div>
+            <p>Navy blue sofa for relaxation</p>
+            <span>$1,250.00</span>
+            <button>Shop now</button>
+        </section>
+    </section>
+    <section id="categories">
+        <div class="cate">
+            <div class="cate-1">
+                <img class="cate-img" src="assets/images/Bedroom.png"/>
+                <p>Bedroom</p>
+            </div>
+            <div class="cate-1">
+                <img class="cate-img c-img" src="assets/images/Living room.png"/>
+                <p>Living room</p>
+            </div>
+            <div class="cate-1">
+                <img class="cate-img" src="assets/images/Bathroom.png"/>
+                <p>Bathroom</p>
+            </div>
+            <div class="cate-1">
+                <img class="cate-img" src="assets/images/Decoration.png"/>
+                <p>Decoration</p>
+            </div>
+            <div class="cate-1">
+                <img class="cate-img" src="assets/images/office.png"/>
+                <p>Office</p>
+            </div>
+            <div class="cate-1">
+                <img class="cate-img" src="assets/images/kitchen.png"/>
+                <p>Kitchen</p>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="products">
+            <div class="product-top">
+                <h2>Popular products</h2>
+                <p>View all <img src="assets/icons/Icon.png"/></p>
+            </div>
+            <div class="product-line"></div>
+            <div class="product-bottom">
+                <img class="arrow" src="assets/icons/left-arrow-Icon.svg"/>
+                <div class="product-item">
+                    <img src="assets/images/product-1.png"/>
+                    <div class="dot">
+                        <div class="black color"></div>
+                        <div class="l-blue color"></div>
+                        <div class="blue color"></div>
+                    </div>
+                    <p>Bed frame light gray 140×200 cm</p>
+                    <div class="p-s">
+                        <span>$760.00</span>
+                    </div>
+                    <div class="pro-btn">
+                        <button>Add to cart</button>
+                        <a href="#"><img src="assets/icons/like-Icon.svg"/></a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="assets/images/product-2.png"/>
+                    <div class="dot">
+                        <div class="s-blue color"></div>
+                        <div class="grey color"></div>
+                    </div>
+                    <p>Blue armchair with iron legs</p>
+                    <div class="p-s">
+                        <span>$220.00</span>
+                    </div>
+                    <div class="pro-btn">
+                        <button>Add to cart</button>
+                        <a href="#"><img src="assets/icons/like-Icon.svg"/></a>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <span class="discount">-13%</span>
+                    <img src="assets/images/product-3.png"/>
+                    <div class="dot">
+                        <div class="sandel color"></div>
+                        <div class="orange color"></div>
+                        <div class="white color"></div>
+                    </div>
+                    <p>Loft-style lamp 120×80 cm</p>
+                    <div class="p-s">
+                        <span>$140.00</span>
+                        <span class="cancelled">$160.00</span>
+                    </div>
+                    <div class="pro-btn">
+                        <button>Add to cart</button>
+                        <a href="#"><img src="assets/icons/like-Icon.svg"/></a>
+                    </div>
+                </div>
+                <div class="product-item p-i-4">
+                    <img src="assets/images/product-4.png"/>
+                    <div class="dot">
+                        <div class="green color"></div>
+                        <div class="d-blue color"></div>
+                    </div>
+                    <p>Green chair with wooden legs 60×100 cm</p>
+                    <div class="p-s">
+                        <span>$320.50</span>
+                    </div>
+                    <div class="pro-btn">
+                        <button>Add to cart</button>
+                        <a href="#"><img src="assets/icons/like-Icon.svg"/></a>
+                    </div>
+                </div>
+                <img class="arrow" src="assets/icons/right-arrow-Icon.svg"/>
+            </div>
+        </div>
+    </section>
+    <section id="design">
+        <div class="design">
+            <h2>Interior design and inspiration</h2>
+            <div class="d-room">
+                <p>Living room</p>
+                <p>Bedroom</p>
+                <p>Kitchen</p>
+                <p>Decoration</p>
+                <p>Office</p>
+            </div>
+            <div class="d-img">
+                <div class="col-1">
+                    <img src="assets/images/design-1.jpg"/>
+                    <img src="assets/images/design-3.jpg"/>
+                </div>
+                <div class="col-2">
+                    <img class="bed" src="assets/images/design-2.jpg"/>
+                    <img class="decor" src="assets/images/design-4.jpeg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="benefit">
+        <div class="benefit">
+            <div class="b-1">
+                <img src="assets/icons/eco-friendly.svg"/>
+                <h4>Eco-friendly</h4>
+                <p>Decorate your space with eco-friendly furniture with low VOCs, environmentally friendly materials and safe coatings.</p>
+            </div>
+            <div class="b-1">
+                <img src="assets/icons/unbeatable-quality.svg"/>
+                <h4>Unbeatable quality</h4>
+                <p>We choose raw materials from the best manufacturers, so our furniture and decor are of the highest quality at the best prices.</p>
+            </div>
+            <div class="b-1">
+                <img src="assets/icons/delivery-box.svg"/>
+                <h4>Delivery to your door</h4>
+                <p>We will deliver to your door anywhere in the world. If you're not 100% satisfied, let us know within 30 days and we'll solve the problem.</p>
+            </div>
+        </div>
+    </section>
+    <section id="banner">
+        <div class="banner">
+            <div class="banner-left">
+                <img class="b-l-img" src="assets/images/product-4.png"/>
+                <button><img src="assets/icons/play.png"/> Play</button>
+            </div>
+            <div class="banner-right">
+                <p>best deal</p>
+                <h3>Scandinavian green chair with wooden legs 60×100 cm</h3>
+                <img src="assets/images/deal.jpg"/>
+                <span>$357.00</span>
+                <button>Shop now</button>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="blog">
+            <div class="blog-top">
+                <h2>Blog and news</h2>
+                <p>View all <img src="assets/icons/Icon.png"/></p>
+            </div>
+            <div class="blog-bottom">
+                <div class="b-b-1">
+                    <div class="b-b-img">
+                        <img class="bl-img" src="assets/images/blog-1.jpg"/>
+                    </div>
+                    <div class="b-b-content">
+                        <p>interior design</p>
+                        <h5>Decorate your home for the festive season in 3 easy steps</h5>
+                        <span>By Ava Johnson | September 11, 2024</span>
+                    </div>
+                </div>
+                <div class="b-b-1">
+                    <div class="b-b-img">
+                        <img src="assets/images/blog-2.jpg"/>
+                    </div>
+                    <div class="b-b-content">
+                        <p>interior design</p>
+                        <h5>Transform your living space with these chic interior design tips</h5>
+                        <span>By Ethan Miller | September 5, 2024</span>
+                    </div>
+                </div>
+                <div class="b-b-1">
+                    <div class="b-b-img">
+                        <img src="assets/images/blog-3.jpg"/>
+                    </div>
+                    <div class="b-b-content">
+                        <p>furniture</p>
+                        <h5>Furnishing your space: a guide to choosing the perfect furniture pieces</h5>
+                        <span>By Oliver Harris | August 23, 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="ft">
+            <div class="ft-top">
+                <div class="ft-1">
+                    <a href="#">Bedroom</a>
+                    <a href="#">Living room</a>
+                    <a href="#">Bathroom</a>
+                    <a href="#">Decoration</a>
+                    <a href="#">Kitchen</a>
+                    <a href="#">Sale</a>
+                </div>
+                <div class="ft-2">
+                    <div class="ft-2-1">
+                        <h2>Stay in touch with us</h2>
+                        <p>Receive the latest updates about our products & promotions</p>
+                    </div>
+                    <div class="ft-2-2">
+                        <input type="email" placeholder="Your email"/>
+                        <img src="assets/icons/arrow-Icon.svg"/>
+                    </div>
+                    <div class="ft-2-3">
+                        <img src="assets/icons/youtube-Icon.svg"/>
+                        <img src="assets/icons/facebook-Icon.svg"/>
+                        <img src="assets/icons/instgram-Icon.svg"/>
+                        <img src="assets/icons/twitter-Icon.svg"/>
+                        <img src="assets/icons/Icon.svg"/>
+                    </div>
+                </div>
+                <div class="ft-3">
+                    <div class="ft-3-1">
+                        <a href="#">Bedroom</a>
+                        <a href="#">Living room</a>
+                        <a href="#">Bathroom</a>
+                        <a href="#">Decoration</a>
+                        <a href="#">Kitchen</a>
+                        <a href="#">Sale</a>
+                    </div>
+                    <div class="ft-3-2">
+                        <a href="#">Shipping options</a>
+                        <a href="#">Tracking a package</a>
+                        <a href="#">Help center</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">Product returns</a>
+                        <a href="#">Locations</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-btm">
+                <div class="copyrights">
+                    <p> &copy; All rights reserved. Made by Createx Studio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
