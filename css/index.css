@@ -237,6 +237,8 @@ body {
     flex: 1 1 calc(25% - 20px);
     text-align: left;
     position: relative;
+    height: 480px;
+    align-items: stretch;
 }
 .product-item .discount{
     position: absolute;
@@ -281,7 +283,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    position: absolute;
+    bottom: 0;
+    width:80%;
 }
 
 .pro-btn button {
@@ -816,9 +820,7 @@ align-items: center;
 }
 
 .ft-3 {
-    display: flex;
-    align-items: center;
-    
+    display: flex;   
     flex-direction: column;
 }
 
@@ -926,6 +928,7 @@ align-items: center;
 
     .product-item {
         padding: 15px;
+        height: 420px;
     }
 
     .product-item p {
@@ -1112,6 +1115,7 @@ align-items: center;
 
     .product-item {
         padding: 12px;
+        height: 400px;
     }
 
     .product-item p {
@@ -1294,6 +1298,7 @@ align-items: center;
 
     .product-item {
         padding: 10px;
+        height: 350px;
     }
 
     .product-item p {
@@ -1540,6 +1545,7 @@ align-items: center;
 
     .product-item {
         padding: 8px;
+        height: 320px;
     }
 
     .product-item p {
@@ -1732,6 +1738,7 @@ align-items: center;
 
     .product-item {
         padding: 6px;
+        height: 280px;
     }
 
     .product-item p {
@@ -2009,6 +2016,7 @@ align-items: center;
 
     .product-item {
         padding: 5px;
+        height: 270px;
     }
 
     .product-item p {
@@ -2124,6 +2132,10 @@ align-items: center;
         gap: 3px;
     }
 
+    .product-item{
+        height: 240px;
+    }
+
     .copyrights p {
         font-size: 0.8rem;
     }
@@ -2163,6 +2175,7 @@ align-items: center;
 
     .product-item {
         padding: 2px;
+        height: 225px;
     }
 
     .product-bottom .arrow{
@@ -2280,6 +2293,36 @@ align-items: center;
     
     #main h1{
         font-size: 1.1rem;
+    }
+
+    #products .products .product-top{
+        padding:0 10px;
+        margin-bottom: 5px;
+    }
+
+    .product-item{
+        height: 190px;
+    }
+
+    #blog .blog .blog-top{
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    #design .design h2{
+        padding-left: 10px;
+    }
+
+    #design .design .d-room{
+        padding-left: 10px;
+    }
+
+    .ft-2 {
+        padding: 20px;
+    }
+
+    .ft-3 {
+        padding: 0 50px;
     }
 
 }
